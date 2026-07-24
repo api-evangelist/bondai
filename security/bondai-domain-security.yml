@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: bondai.io
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 21 05:26:42 2026 GMT
+  hsts: false
+domains:
+- domain: bondai.io
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

@@ -1,7 +1,17 @@
 aid: bondai
 name: Bondai
-description: Bondai is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bondai is a group-travel planning and booking platform, delivered primarily as a
+  mobile app, that helps friends organize trips together in one place. It targets
+  millennials and tackles the friction of collaborative travel by combining itinerary
+  coordination, deal discovery, destination inspiration, group communication, expense
+  splitting, and booking of experiences into a single social workflow. The company frames
+  its mission around "travel dreams made real" and lasting friendships formed through
+  travel. Bondai also curates and sells local experiences and stays (villas, tours, and
+  guided outings), with early activity concentrated around Saudi Arabian destinations such
+  as AlUla, Makkah, Madina, Jazan, and Tabuk. It is a consumer travel product with no
+  public developer API, SDK, or documentation surface at this time. Bondai is a portfolio
+  company of 500 Global and was added to the API Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/bondai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.bondai.io/wp-content/themes/bondai/fav/apple-touch-icon_v-2.png
 tags:
 - Company
+- Travel
+- Trip Planning
+- Group Travel
+- Experiences
+- Booking
+- Mobile App
+- Tourism
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://bondai.io
+- type: Blog
+  url: https://bondai.io/blog.html
+- type: Support
+  url: https://bondai.io/faqs.html
+- type: PrivacyPolicy
+  url: https://bondai.io/privacy-policy.html
+- type: DomainSecurity
+  url: security/bondai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
